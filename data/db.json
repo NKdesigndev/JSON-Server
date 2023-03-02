@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "How to be Cool",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? Corrupti? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? <br> <br> sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum?",
+      "likes": 15
+    },
+    {
+      "id": 3,
+      "title": "JSON Server practice",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? Corrupti? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? <br> <br> sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum?",
+      "likes": 20
+    },
+    {
+      "title": "Sweety is Sweet",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? Corrupti? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum? sit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum?\n\nsit amet consectetur adipisicing elit. Rem culpa ut fuga itaque voluptas maiores tempore cum labore dicta aperiam! Id repellat, officiis et dolores magnam possimus fuga harum?",
+      "likes": 0,
+      "id": 4
+    }
+  ]
+}

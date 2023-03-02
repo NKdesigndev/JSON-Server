@@ -1,12 +1,15 @@
 const blogConatiner = document.querySelector(".blogs");
+const searchForm = document.querySelector(".search");
 
-const renderPosts = async () => {
+const renderPosts = async (term) => {
   let uri = "http://localhost:3000/posts?_sort=likes&_order=desc";
+
+  if (term) {
+    uri += `&q=${term}`;
+  }
 
   const res = await fetch(uri);
   const posts = await res.json();
-
-  console.log(posts);
 
   let template = "";
 
@@ -23,5 +26,11 @@ const renderPosts = async () => {
 
   blogConatiner.innerHTML = template;
 };
+
+// Serach Form
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  renderPosts(searchForm.term.value.trim());
+});
 
 window.addEventListener("DOMContentLoaded", () => renderPosts());

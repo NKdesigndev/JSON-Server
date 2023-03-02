@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
 body{
@@ -134,4 +135,21 @@ nav a:hover{
     padding: 10px 15px;
     float: right;
     transition: .2s;
+}
+.search{
+    width: 60%;
+    margin-right: 10px;
+}
+.search input{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    background: #f8fdff;
+    padding: 10px;
+    border: none;
+    border: 1px solid #c7dbe4;
+}
+
+.search input:focus{
+    outline: none;
 }
